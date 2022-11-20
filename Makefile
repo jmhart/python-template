@@ -9,8 +9,8 @@ lint:
 test:
 	echo "test"
 
-run_local:
-	echo "run local"
+run:
+	echo "run"
 
 docker_build:
 	docker build --tag $(APP_NAME) .	
