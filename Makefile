@@ -10,14 +10,11 @@ test:
 	echo "test"
 
 run:
-	echo "run"
-
-docker_build:
-	docker build --tag $(APP_NAME) .	
+	python3 -m src
 
 docker_run:
 	docker run $(APP_NAME)
 
-docker_sync:
+docker_refresh:
 	docker build --tag $(APP_NAME) .
 	docker run $(APP_NAME)
