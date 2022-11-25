@@ -2,18 +2,22 @@
 
 1. [ ] Logging
    * [x] Loggers
+   * [ ] Colors
    * [ ] Filters
-2. [ ] Linter
-3. [ ] Tests
+2. [ ] Docker
+   * [x] Dockerfile
+   * [ ] Docker compose
+3. [ ] Linter
+4. [ ] Tests
    * [ ] Pytest
    * [ ] Tox?
-4. [ ] Docs
+5. [ ] Docs
    * [ ] Pydocs
-5. [ ] Readme
+6. [ ] Readme
    * [ ] Title
    * [ ] Description
    * [ ] Install & Test
-6. [ ] Makefile
+7. [ ] Makefile
    * [ ] Commands
      * [ ] Install
        * [ ] Test
