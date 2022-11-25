@@ -12,6 +12,12 @@ test:
 run:
 	python3 -m src
 
+venv:
+	pipenv shell
+
+rmvenv:
+	pipenv --rm
+
 docker_run:
 	docker run $(APP_NAME)
 
