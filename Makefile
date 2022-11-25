@@ -14,9 +14,12 @@ run:
 
 venv:
 	pipenv shell
-
+	
 rmvenv:
 	pipenv --rm
+
+reqs:
+	pipenv run pip freeze >> requirements.txt   
 
 docker_run:
 	docker run $(APP_NAME)
