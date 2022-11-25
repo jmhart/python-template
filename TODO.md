@@ -2,7 +2,7 @@
 
 1. [ ] Logging
    * [x] Loggers
-   * [ ] Colors
+   * [x] Colors
    * [ ] Filters
 2. [ ] Docker
    * [x] Dockerfile
