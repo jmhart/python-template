@@ -7,12 +7,13 @@
 2. [ ] Docker
    * [x] Dockerfile
    * [ ] Docker compose
-3. [ ] Linter
+3. [ ] Pylint
+   * [ ] pylintrc
 4. [ ] Tests
    * [ ] Pytest
-   * [ ] Tox?
 5. [ ] Docs
-   * [ ] Pydocs
+   * [ ] Docstrings
+   * [ ] Mkdocs
 6. [ ] Readme
    * [ ] Title
    * [ ] Description
